@@ -1,0 +1,18 @@
+@import "../../App.scss";
+
+.projects {
+  height: 100rem;
+
+  h1 {
+    text-align: center;
+    margin-top: 15rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .project-list {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+  }
+}

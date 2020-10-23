@@ -1,0 +1,31 @@
+@import "../../App.scss";
+
+.about {
+  height: 38rem;
+  background: $primary-color;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  .about-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+
+    h2 {
+      font-weight: 500;
+
+      margin: 2rem 0rem;
+    }
+
+    p {
+      text-align: center;
+      font-weight: 300;
+      line-height: 2.5rem;
+    }
+  }
+}

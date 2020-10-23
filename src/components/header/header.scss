@@ -1,0 +1,18 @@
+@import "../../App.scss";
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 24px;
+  text-transform: capitalize;
+
+  h3,
+  div {
+    padding: 12px;
+    align-self: center;
+  }
+
+  span {
+    color: $primary-color;
+  }
+}

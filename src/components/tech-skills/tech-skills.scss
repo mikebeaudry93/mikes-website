@@ -1,0 +1,23 @@
+@import "../../App.scss";
+
+.tech-skills {
+  margin: 3rem 0rem;
+  background: white;
+  color: black;
+  padding: 3rem;
+  border: 1px solid silver;
+  border-radius: 10px;
+  position: absolute;
+  top: 25rem;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 500;
+  }
+
+  .developer-icons {
+    width: 5rem;
+    margin: 2rem;
+  }
+}
