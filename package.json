@@ -6,13 +6,18 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.14",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^3.11.0",
     "react-scripts": "3.4.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "client": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -31,5 +36,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:3001"
 }

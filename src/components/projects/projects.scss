@@ -1,11 +1,12 @@
 @import "../../App.scss";
 
 .projects {
-  height: 100rem;
+  height: 60rem;
+  position: relative;
 
   h1 {
     text-align: center;
-    margin-top: 15rem;
+    margin-top: 18rem;
     font-size: 2.5rem;
     font-weight: 500;
   }

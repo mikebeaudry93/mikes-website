@@ -12,26 +12,29 @@ import redux from "../../assets/logo-redux.png";
 
 const TechSkills = () => {
   const [icons] = React.useState([
-    html,
-    css,
-    javascript,
-    node,
-    react,
-    sass,
-    redux,
+    { skill: "HTML", img: html },
+    { skill: "CSS", img: css },
+    { skill: "JavaScript", img: javascript },
+    { skill: "Node.js", img: node },
+    { skill: "ReactJS", img: react },
+    { skill: "SASS", img: sass },
+    { skill: "Redux", img: redux },
   ]);
   return (
     <div className="tech-skills">
-      <h2>Languages I speak:</h2>
-      <div>
+      <h2>Tech Skills:</h2>
+      <div className="skills-list">
         {icons.map((item, i) => {
           return (
-            <img
-              key={i}
-              className="developer-icons"
-              src={item}
-              alt="developer icon"
-            />
+            <div>
+              <h4>{item.skill}</h4>
+              <img
+                key={i}
+                className="developer-icons"
+                src={item.img}
+                alt="developer icon"
+              />
+            </div>
           );
         })}
       </div>

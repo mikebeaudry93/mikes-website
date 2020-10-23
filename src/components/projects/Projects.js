@@ -2,12 +2,8 @@ import React from "react";
 import "./projects.scss";
 
 import ProjectCard from "../project-card/ProjectCard";
-
-import quiz from "../../assets/quiz-screenshot.png";
-import music from "../../assets/music-ss.png";
-import app from "../../assets/app-ss.png";
-
 import ProjectData from "../../utils/ProjectData";
+import Contact from "../contact/Contact";
 
 const Projects = () => {
   const [projectList] = React.useState(ProjectData);
@@ -19,6 +15,7 @@ const Projects = () => {
           return <ProjectCard key={i} {...item} />;
         })}
       </div>
+      <Contact />
     </section>
   );
 };

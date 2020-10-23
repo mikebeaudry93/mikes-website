@@ -6,19 +6,20 @@ export default [
   {
     title: "Music Supreme",
     image: music,
-    description: "music",
+    description:
+      "E-commerce site (hosted on Heroku so inventory takes a minute to start up).",
     url: "https://react-music-store-supreme.netlify.app/",
   },
   {
     title: "Js Quiz",
     image: quiz,
-    description: "quiz app",
+    description: "Interactive quiz app.",
     url: "https://compassionate-northcutt-2baef9.netlify.app/",
   },
   {
-    title: "uFitness",
+    title: "Weather App",
     image: app,
-    description: "fitness",
-    url: "https://happy-mahavira-f477ed.netlify.app/",
+    description: "Pulls data from third party weather api.",
+    url: "https://pensive-bell-4cd02e.netlify.app/",
   },
 ];

@@ -12,7 +12,12 @@
     flex-direction: column;
     justify-content: space-evenly;
     margin-bottom: 10rem;
-    height: 10rem;
+    height: 15rem;
+
+    .icon-box {
+      display: flex;
+      justify-content: space-evenly;
+    }
 
     // span {
     //   color: $primary-color;

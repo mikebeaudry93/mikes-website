@@ -32,3 +32,36 @@ $main-transition: all 0.3s linear;
   background: $primary-color;
   color: white;
 }
+
+.btn-link {
+  position: absolute;
+  background: white;
+  color: $primary-color;
+  opacity: 0;
+  padding: 8px 8px 10px 20px;
+  bottom: 40px;
+  left: 127px;
+  font-size: 0.9rem;
+}
+
+.btn-link:hover {
+  background: $primary-color;
+  color: white;
+}
+
+.btn-link-hovered {
+  opacity: 1;
+}
+
+.btn-form {
+  background: $primary-color;
+  color: white;
+  margin: 2rem;
+  width: 10rem;
+  align-self: center;
+}
+
+.btn-form:hover {
+  background: white;
+  color: $primary-color;
+}
