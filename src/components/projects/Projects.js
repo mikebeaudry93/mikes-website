@@ -1,5 +1,6 @@
 import React from "react";
 import "./projects.scss";
+import { Element } from "react-scroll";
 
 import ProjectCard from "../project-card/ProjectCard";
 import ProjectData from "../../utils/ProjectData";
@@ -15,6 +16,9 @@ const Projects = () => {
           return <ProjectCard key={i} {...item} />;
         })}
       </div>
+      <Element name="contact">
+        <Contact />
+      </Element>
       <Contact />
     </section>
   );

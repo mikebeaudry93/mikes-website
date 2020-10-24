@@ -3,4 +3,22 @@
 .footer {
   height: 35rem;
   background: $primary-color;
+
+  .footer-links {
+    padding-top: 23rem;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 3rem;
+      margin: 2rem;
+      transition: all 0.2s ease-in-out;
+    }
+    img:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  p {
+    text-align: center;
+  }
 }
