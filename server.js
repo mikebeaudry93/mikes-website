@@ -18,9 +18,19 @@ app.post("/send", (req, res, next) => {
     text: content,
   };
 
+  // var auth = {
+  //   auth: {
+  //     api_key: process.env.API_KEY,
+  //     domain: process.env.DOMAIN,
+  //   },
+  // };
+
+  // var transporter = nodemailer.createTransport(mg(auth));
+
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 587,
+    secure: false,
     auth: {
       user: process.env.GOOGLE_EMAIL,
       pass: process.env.GOOGLE_PASSWORD,
