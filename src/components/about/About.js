@@ -16,8 +16,8 @@ const About = () => {
           a natural curiosity for learning how things work. I look to forward to
           helping progress the world through innovative technology.{" "}
         </p>
+        <TechSkills />
       </div>
-      <TechSkills />
     </section>
   );
 };

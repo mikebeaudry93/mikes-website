@@ -1,0 +1,26 @@
+@import "../../App.scss";
+
+.content-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 30%;
+  text-align: center;
+  height: 16rem;
+  box-shadow: $box-shadow;
+  background: $grey-color;
+  //   position: relative;
+  //   bottom: 12rem;
+  transition: $main-transition;
+}
+
+.content-card:hover {
+  background: $primary-color-bg;
+  color: black;
+  color: $grey-color;
+  cursor: pointer;
+}
+
+// .icon:hover {
+//   color: white;
+// }

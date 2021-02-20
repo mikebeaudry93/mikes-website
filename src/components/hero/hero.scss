@@ -5,32 +5,55 @@
   text-transform: capitalize;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 82vh;
 
   .hero-content {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin-bottom: 10rem;
-    height: 15rem;
+    height: 12rem;
 
-    .icon-box {
-      display: flex;
-      justify-content: space-evenly;
-    }
-
-    // span {
-    //   color: $primary-color;
+    // .icon-box {
+    //   display: flex;
+    //   justify-content: space-evenly;
     // }
 
+    .sub-title-box {
+      display: flex;
+
+      .hero-line {
+        width: 17rem;
+        border-top: 0.2rem solid $grey-color;
+        top: 1rem;
+        left: 1rem;
+        position: relative;
+      }
+    }
+
+    span {
+      color: #63d1f4;
+      font-family: "Bebas Neue", cursive;
+    }
+
     h1 {
-      font-size: 2.5rem;
+      font-size: 5.8rem;
       font-weight: 500;
+      font-family: "Bebas Neue", cursive;
+      align-self: center;
+      letter-spacing: 1rem;
+      color: $grey-color;
     }
 
     .btn-hero {
       width: 30%;
       align-self: center;
+    }
+
+    h3 {
+      color: $grey-color;
+      font-size: 1.4rem;
+      letter-spacing: 0.5rem;
     }
   }
 }

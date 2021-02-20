@@ -1,9 +1,9 @@
 @import "../../App.scss";
 
 .about {
-  height: 38rem;
-  background: $primary-color;
-  color: white;
+  height: 50rem;
+  background: $primary-color-bg;
+  color: $grey-color;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,15 +17,38 @@
     margin-top: 5rem;
 
     h2 {
-      font-weight: 500;
-
-      margin: 2rem 0rem;
+      font-weight: bold;
+      font-size: 1.6rem;
+      letter-spacing: 0.2rem;
+      margin: 1rem 0rem;
+      // text-transform: uppercase;
     }
 
     p {
       text-align: center;
-      font-weight: 300;
-      line-height: 2.5rem;
+      // font-weight: bold;
+      line-height: 2.7rem;
     }
+
+    // .title-box {
+    //   margin-top: 8rem;
+    //   padding-bottom: 1rem;
+    //   background: rgba(0, 0, 0, 0.3);
+    //   display: flex;
+    //   flex-direction: column;
+    //   align-items: center;
+    //   width: 30rem;
+
+    //   h1 {
+    //     margin: 0.5rem 0rem 0.5rem 0rem;
+    //     font-size: 2.2rem;
+    //     color: white;
+    //   }
+
+    //   .line {
+    //     border-top: 0.2rem solid white;
+    //     width: 5rem;
+    //   }
+    // }
   }
 }

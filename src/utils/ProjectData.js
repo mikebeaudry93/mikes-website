@@ -6,8 +6,7 @@ export default [
   {
     title: "Music Supreme",
     image: music,
-    description:
-      "E-commerce site (hosted on Heroku so inventory takes a minute to start up).",
+    description: "E-commerce site made with React.",
     url: "https://react-music-store-supreme.netlify.app/",
   },
   {

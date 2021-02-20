@@ -23,6 +23,7 @@
   border-radius: 10px;
   width: 60%;
   position: absolute;
+  bottom: -20rem;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -44,6 +45,7 @@
     text-transform: capitalize;
     width: 25rem;
     height: 25rem;
+    position: relative;
 
     label {
       color: grey;
@@ -57,4 +59,15 @@
       padding: 0.3rem;
     }
   }
+}
+
+.error-success-msg {
+  align-self: center;
+  text-transform: none;
+  margin: 0px;
+}
+
+.required {
+  position: absolute;
+  top: 22.5rem;
 }

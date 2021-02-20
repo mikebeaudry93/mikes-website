@@ -1,10 +1,16 @@
 // Fonts
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 // Variables
 $primary-font: "Poppins", sans-serif;
 $primary-color: #035096;
-$main-transition: all 0.3s linear;
+$primary-color-bg: rgba(3, 80, 150, 1);
+$grey-color: rgba(245, 245, 245, 1);
+$main-transition: all 0.1s linear;
+$secondary-transition: all 0.3s linear;
+$box-shadow: 0px 7px 10px rgba(black, 0.5);
+$box-shadow-small: 0px 3px 15px rgba(0, 0, 0, 0.2);
 
 // Global Styles
 * {
@@ -14,18 +20,23 @@ $main-transition: all 0.3s linear;
   box-sizing: border-box;
 }
 
+html {
+  background-color: #162252;
+}
+
 // Buttons
 .btn-primary {
   font-family: $primary-font;
   padding: 12px;
   cursor: pointer;
-  border-radius: 15px;
+  border-radius: 2px;
   border: 1px solid $primary-color;
   text-transform: capitalize;
-  background: white;
-  color: $primary-color;
+  background: rgba(255, 255, 255, 0);
+  color: white;
   transition: $main-transition;
   outline: none;
+  box-shadow: 0px 3px 7px rgba(black, 0.2);
 }
 
 .btn-primary:hover {
@@ -35,8 +46,8 @@ $main-transition: all 0.3s linear;
 
 .btn-link {
   position: absolute;
-  background: white;
-  color: $primary-color;
+  background: rgba(0, 0, 0, 0);
+  color: white;
   opacity: 0;
   padding: 8px 8px 10px 20px;
   bottom: 40px;
@@ -45,8 +56,8 @@ $main-transition: all 0.3s linear;
 }
 
 .btn-link:hover {
-  background: $primary-color;
-  color: white;
+  background: white;
+  color: $primary-color;
 }
 
 .btn-link-hovered {

@@ -12,6 +12,14 @@
     align-self: center;
   }
 
+  h3 {
+    opacity: 0;
+  }
+
+  h3:hover {
+    cursor: default;
+  }
+
   span {
     color: $primary-color;
   }

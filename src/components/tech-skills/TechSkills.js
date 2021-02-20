@@ -22,7 +22,7 @@ const TechSkills = () => {
   ]);
   return (
     <div className="tech-skills">
-      <h2>Tech Skills:</h2>
+      <h5 className="tech-skills-title">Tech Skills:</h5>
       <div className="skills-list">
         {icons.map((item, i) => {
           return (

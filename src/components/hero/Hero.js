@@ -16,12 +16,12 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-content">
-        <div className="icon-box">
-          <GiPencilBrush size="2.5rem" />
-          <BsFileCode size="2.8rem" />
+        <div className="sub-title-box">
+          <h3>FRONT END DEVELOPER</h3>
+          <div className="hero-line"></div>
         </div>
         <h1>
-          designer.<span>developer</span>
+          michael<span>Beaudry</span>
         </h1>
         <button
           className="btn-primary btn-hero"
@@ -33,5 +33,10 @@ const Hero = () => {
     </div>
   );
 };
+
+// <div className="icon-box">
+//           <GiPencilBrush size="2.5rem" />
+//           <BsFileCode size="2.8rem" />
+//         </div>
 
 export default Hero;

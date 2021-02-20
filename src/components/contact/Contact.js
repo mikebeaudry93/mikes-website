@@ -10,22 +10,36 @@ const Contact = () => {
     message: "",
   });
 
+  const [status, setStatus] = React.useState("");
+  const [error, setError] = React.useState(false);
+
   React.useEffect(() => {}, []);
 
+  let isEmpty = !formValues.name || !formValues.email || !formValues.message;
+
   function submitEmail(e) {
-    e.preventDefault();
-    axios({
-      method: "POST",
-      url: "/send",
-      data: formValues,
-    }).then((response) => {
-      if (response.data.status === "success") {
-        alert("Message Sent.");
-        resetForm();
-      } else if (response.data.status === "fail") {
-        alert("Message failed to send");
-      }
-    });
+    if (isEmpty === true) {
+      e.preventDefault();
+      setError(true);
+    } else {
+      e.preventDefault();
+      setError(false);
+      axios({
+        method: "POST",
+        url: "/send",
+        data: formValues,
+      }).then((response) => {
+        if (response.data.status === "success") {
+          setStatus("success");
+          setTimeout(() => {
+            setStatus("");
+          }, 5000);
+          resetForm();
+        } else if (response.data.status === "fail") {
+          setStatus("fail");
+        }
+      });
+    }
   }
 
   function resetForm() {
@@ -68,13 +82,27 @@ const Contact = () => {
             setFormValues({ ...formValues, message: e.target.value })
           }
         ></textarea>
-        <button
-          className="btn-primary btn-form"
-          type="submit"
-          onClick={submitEmail}
-        >
-          Submit
-        </button>
+        {status === "success" ? (
+          <p className="error-success-msg">Thanks for submitting!</p>
+        ) : (
+          <button
+            className="btn-primary btn-form"
+            type="submit"
+            onClick={submitEmail}
+          >
+            Submit
+          </button>
+        )}
+        {error && (
+          <p className="error-success-msg required">
+            Please fill out all required fields.
+          </p>
+        )}
+        {status === "fail" && (
+          <p className="error-success-msg required">
+            Oops! There was an error.
+          </p>
+        )}
       </form>
     </section>
   );
