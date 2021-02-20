@@ -12,28 +12,28 @@ app.post("/send", (req, res, next) => {
   var message = req.body.message;
   var content = ` name: ${name} \n email: ${email} \n message: ${message} `;
   var mail = {
-    from: name,
-    to: "michaelbeaudry93@gmail.com",
+    from: "michaelbeaudry93@outlook.com",
+    to: "michaelbeaudry93@outlook.com",
     subject: `${name} has sent you an email.`,
     text: content,
   };
 
-  // var auth = {
+  // const transporter = nodemailer.createTransport({
+  //   host: "smtp.gmail.com",
+  //   port: 587,
+  //   secure: false,
   //   auth: {
-  //     api_key: process.env.API_KEY,
-  //     domain: process.env.DOMAIN,
+  //     user: process.env.GOOGLE_EMAIL,
+  //     pass: process.env.GOOGLE_PASSWORD,
   //   },
-  // };
-
-  // var transporter = nodemailer.createTransport(mg(auth));
+  // });
 
   const transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
+    host: "smtp-mail.outlook.com",
     port: 587,
-    secure: false,
     auth: {
-      user: process.env.GOOGLE_EMAIL,
-      pass: process.env.GOOGLE_PASSWORD,
+      user: process.env.OUTLOOK_EMAIL,
+      pass: process.env.OUTLOOK_PASSWORD,
     },
   });
 
