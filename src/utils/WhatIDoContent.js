@@ -1,26 +1,25 @@
 import React from "react";
 import { BsFileCode } from "react-icons/bs";
-import { GiPencilBrush } from "react-icons/gi";
-import { GrMoney } from "react-icons/gr";
+import { MdComputer } from "react-icons/md";
 import { GiShoppingCart } from "react-icons/gi";
 
 export default [
   {
-    icon: <GiPencilBrush size="2.3rem" />,
-    title: "Design",
+    icon: <BsFileCode size="3rem" />,
+    title: "Design & Development",
     text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "I love to code things from the ground up, especially with React, and create clean, interactive and visually aesthetic web applications",
   },
   {
-    icon: <BsFileCode size="2.7rem" />,
-    title: "Development",
-    text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    icon: <GiShoppingCart size="2.6rem" />,
+    icon: <GiShoppingCart size="3.3rem" />,
     title: "E-commerce",
     text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "I have knowledge and experience building e-commerce sites with React. Includes user authentication and a server that stores orders, users, and products",
+  },
+  {
+    icon: <MdComputer size="3rem" />,
+    title: "Digital Marketing",
+    text:
+      "I have experience designing, creating, and delivering marketing programs to support expansion and growth of companies services and products",
   },
 ];

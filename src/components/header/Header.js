@@ -5,10 +5,10 @@ import { scroller } from "react-scroll";
 const Header = () => {
   const scrollToElement = (element) => {
     scroller.scrollTo(element, {
-      duration: 3000,
-      delay: 100,
+      duration: 2500,
+      delay: 50,
       smooth: true,
-      offset: 230,
+      offset: 80,
     });
   };
   return (

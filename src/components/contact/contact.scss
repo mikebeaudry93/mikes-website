@@ -11,6 +11,12 @@
 //     top: 25rem;
 // }
 
+.txt-area {
+  resize: none;
+}
+
+//
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -70,4 +76,23 @@
 .required {
   position: absolute;
   top: 22.5rem;
+}
+
+.loading {
+  // position: absolute;
+  stroke-dasharray: 100px;
+  stroke-dashoffset: 0;
+  animation: heartBeat 4s linear reverse infinite;
+  transform: rotate(-90deg);
+  width: 390px;
+  align-self: center;
+}
+
+@keyframes heartBeat {
+  50% {
+    stroke-dashoffset: 100px;
+  }
+  50.01% {
+    stroke-dashoffset: -100px;
+  }
 }

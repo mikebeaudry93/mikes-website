@@ -1,8 +1,9 @@
 @import "../../App.scss";
 
 .projects {
-  height: 60rem;
+  height: 76rem;
   position: relative;
+  // flex-wrap: wrap;
 
   .project-title-box {
     display: flex;
@@ -41,5 +42,6 @@
     margin-top: 5rem;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
 }

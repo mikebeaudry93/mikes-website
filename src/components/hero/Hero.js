@@ -7,10 +7,10 @@ import { scroller } from "react-scroll";
 const Hero = () => {
   const scrollToElement = (element) => {
     scroller.scrollTo(element, {
-      duration: 3000,
-      delay: 100,
+      duration: 2500,
+      delay: 50,
       smooth: true,
-      offset: -200,
+      offset: 10,
     });
   };
   return (

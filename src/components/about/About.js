@@ -8,13 +8,16 @@ const About = () => {
       <div className="about-content">
         <h2>Hi, I'm Mike. Nice to meet you!</h2>
         <p>
-          I began my journey as a Developer once I graduated from BrainStation
-          in 2019. Since then, I've been building and designing full-stack
-          applications to further my skills and progress myself in the field I'm
-          truly passionate about. I enjoy building projects from the ground up
-          and love using React to do it. I'm charasmatic, hardworking, and have
-          a natural curiosity for learning how things work. I look to forward to
-          helping progress the world through innovative technology.{" "}
+          Western University Marketing graduate and Web Development graduate
+          from BrainStation, Toronto, Ontario. Currently, working as a Web
+          Design/Developer team leader. My role as a project leader includes
+          digital marketing in addition to web design/development. In my spare
+          time, I enjoy building and designing web applications with an emphasis
+          on writing clean code with React, HTML, SCSS, JavaScript, Node, and
+          Express. I also have experience building websites with Wordpress and
+          Wix. I'm charasmatic, hardworking, and have a natural curiosity for
+          learning how things work. I look to forward to helping progress the
+          world through innovative technology.
         </p>
         <TechSkills />
       </div>

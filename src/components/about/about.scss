@@ -1,7 +1,7 @@
 @import "../../App.scss";
 
 .about {
-  height: 50rem;
+  height: 55rem;
   background: $primary-color-bg;
   color: $grey-color;
   display: flex;
@@ -10,7 +10,7 @@
   position: relative;
 
   .about-content {
-    width: 60%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,6 +27,7 @@
     p {
       text-align: center;
       // font-weight: bold;
+      margin-top: 1.5rem;
       line-height: 2.7rem;
     }
 

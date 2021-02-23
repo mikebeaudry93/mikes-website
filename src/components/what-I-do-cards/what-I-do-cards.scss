@@ -6,9 +6,12 @@
   justify-content: space-evenly;
   width: 30%;
   text-align: center;
-  height: 16rem;
+  line-height: 1.7rem;
+  height: 20rem;
   box-shadow: $box-shadow;
   background: $grey-color;
+  padding: 2rem;
+  border-radius: 0.5rem;
   //   position: relative;
   //   bottom: 12rem;
   transition: $main-transition;
