@@ -4,7 +4,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 30%;
+  width: 26rem;
+  width: 31%;
   text-align: center;
   line-height: 1.7rem;
   height: 20rem;
@@ -12,6 +13,7 @@
   background: $grey-color;
   padding: 2rem;
   border-radius: 0.5rem;
+  // margin: 0.5rem 0.5rem;
   //   position: relative;
   //   bottom: 12rem;
   transition: $main-transition;

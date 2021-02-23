@@ -2,12 +2,13 @@
 
 .section {
   display: flex;
-  flex-direction: column;
-  //   justify-content: center;
+  // flex-direction: column;
+  justify-content: center;
   align-items: center;
   // background: $primary-color-bg;
   height: 20rem;
   position: relative;
+  // flex-wrap: wrap;
 
   .content-section {
     margin: 2rem 0rem;
@@ -15,6 +16,7 @@
     justify-content: space-evenly;
     position: absolute;
     top: -5rem;
+    flex-wrap: wrap;
     // align-items: center;
   }
 
