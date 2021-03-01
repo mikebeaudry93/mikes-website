@@ -9,7 +9,6 @@ const Contact = () => {
     email: "",
     message: "",
   });
-
   const [status, setStatus] = React.useState("");
   const [error, setError] = React.useState(false);
   const [isLoading, setIsLoading] = React.useState(false);

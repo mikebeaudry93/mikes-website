@@ -7,10 +7,12 @@
   align-items: center;
   // background: $primary-color-bg;
   height: 20rem;
+  // width: 100vw;
   position: relative;
   // flex-wrap: wrap;
 
   .content-section {
+    width: 80vw;
     margin: 2rem 0rem;
     display: flex;
     justify-content: space-evenly;
