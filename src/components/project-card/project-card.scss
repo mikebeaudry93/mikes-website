@@ -20,6 +20,11 @@
   // object-position: 100% 0;
   object-fit: cover;
   transition: $secondary-transition;
+
+  @include phone {
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 .project-img-hovered {

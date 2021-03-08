@@ -13,6 +13,11 @@
   position: absolute;
   top: 28rem;
 
+  @include phone {
+    position: unset;
+    width: 100%;
+  }
+
   .tech-skills-title {
     margin: 1.5rem;
     font-size: 1.5rem;
@@ -24,6 +29,8 @@
   .skills-list {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
     h4 {
       text-align: center;
@@ -34,6 +41,10 @@
       width: 5rem;
       margin: 2rem;
       transition: all 0.2s ease-in-out;
+
+      @include phone {
+        width: 3rem;
+      }
 
       &:hover {
         transform: scale(1.1);

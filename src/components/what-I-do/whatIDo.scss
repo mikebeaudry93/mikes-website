@@ -6,10 +6,15 @@
   justify-content: center;
   align-items: center;
   // background: $primary-color-bg;
-  height: 20rem;
+  min-height: 20rem;
   // width: 100vw;
   position: relative;
   // flex-wrap: wrap;
+
+  @include phone {
+    flex-wrap: wrap;
+    position: unset;
+  }
 
   .content-section {
     width: 80vw;
@@ -20,6 +25,12 @@
     top: -5rem;
     flex-wrap: wrap;
     // align-items: center;
+
+    @include phone {
+      position: unset;
+      margin: 0rem;
+      margin-bottom: 2rem; 
+    }
   }
 
   .title-box {

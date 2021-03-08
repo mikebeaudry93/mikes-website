@@ -34,9 +34,4 @@ const Hero = () => {
   );
 };
 
-// <div className="icon-box">
-//           <GiPencilBrush size="2.5rem" />
-//           <BsFileCode size="2.8rem" />
-//         </div>
-
 export default Hero;

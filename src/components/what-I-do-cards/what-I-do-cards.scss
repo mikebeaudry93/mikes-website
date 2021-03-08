@@ -17,6 +17,13 @@
   //   position: relative;
   //   bottom: 12rem;
   transition: $main-transition;
+
+  @include phone {
+    width: 100vw;
+    padding: 1rem;
+    min-height: 22rem;
+    margin: 1rem 0rem;
+  }
 }
 
 .content-card:hover {

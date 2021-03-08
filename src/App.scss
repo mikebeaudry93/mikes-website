@@ -12,6 +12,20 @@ $secondary-transition: all 0.3s linear;
 $box-shadow: 0px 7px 10px rgba(black, 0.5);
 $box-shadow-small: 0px 3px 15px rgba(0, 0, 0, 0.2);
 
+// Media Queries
+
+@mixin desktop {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media (min-width: 300px) and (max-width: 500px) {
+    @content;
+  }
+}
+
 // Global Styles
 * {
   font-family: $primary-font;

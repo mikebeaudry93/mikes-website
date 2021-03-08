@@ -4,9 +4,13 @@
   min-height: 94rem;
   width: 70%;
   position: relative;
-
   margin: auto;
-  // flex-wrap: wrap;
+
+  @include phone {
+    height: 155rem;
+    // position: unset;
+    width: 100%;
+  }
 
   .project-title-box {
     display: flex;
@@ -32,6 +36,10 @@
     font-size: 1.4rem;
     font-weight: 500;
     letter-spacing: 0.3rem;
+
+    @include phone {
+      margin-top: 5rem;
+    }
   }
 
   h1 {
@@ -39,6 +47,10 @@
     letter-spacing: 0.2rem;
     font-size: 2rem;
     color: $grey-color;
+
+    @include phone {
+      text-align: center;
+    }
   }
 
   .project-list {

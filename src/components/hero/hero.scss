@@ -19,6 +19,13 @@
     //   justify-content: space-evenly;
     // }
 
+    @include phone {
+      height: 15rem;
+      align-items: center;
+      width: 90%;
+      // font-size: 3%;
+    }
+
     .sub-title-box {
       display: flex;
 
@@ -28,6 +35,19 @@
         top: 1rem;
         left: 1rem;
         position: relative;
+        @include phone {
+          width: 70%;
+          border-top: 0.1rem solid $grey-color;
+          display: none;
+          // align-items: center;
+          // justify-content: center;
+        }
+      }
+      @include phone {
+        width: 80%;
+
+        // align-items: center;
+        // justify-content: center;
       }
     }
 
@@ -43,6 +63,12 @@
       align-self: center;
       letter-spacing: 1rem;
       color: $grey-color;
+
+      @include phone {
+        font-size: 2.4rem;
+        overflow: none;
+        letter-spacing: 0.6rem;
+      }
     }
 
     .btn-hero {
@@ -54,6 +80,11 @@
       color: $grey-color;
       font-size: 1.4rem;
       letter-spacing: 0.5rem;
+
+      @include phone {
+        font-size: 1rem;
+        text-align: center;
+      }
     }
   }
 }

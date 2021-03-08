@@ -1,13 +1,17 @@
 @import "../../App.scss";
 
 .about {
-  height: 55rem;
+  min-height: 55rem;
   background: $primary-color-bg;
   color: $grey-color;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+
+  @include phone {
+    // margin-bottom: 10rem;
+  }
 
   .about-content {
     width: 70%;
@@ -16,40 +20,30 @@
     align-items: center;
     margin-top: 5rem;
 
+    @include phone {
+      margin-top: 3rem;
+    }
+
     h2 {
       font-weight: bold;
       font-size: 1.6rem;
       letter-spacing: 0.2rem;
       margin: 1rem 0rem;
-      // text-transform: uppercase;
+
+      @include phone {
+        text-align: center;
+        line-height: 2.5rem;
+      }
     }
 
     p {
       text-align: center;
-      // font-weight: bold;
       margin-top: 1.5rem;
       line-height: 2.7rem;
+
+      @include phone {
+        line-height: 2rem;
+      }
     }
-
-    // .title-box {
-    //   margin-top: 8rem;
-    //   padding-bottom: 1rem;
-    //   background: rgba(0, 0, 0, 0.3);
-    //   display: flex;
-    //   flex-direction: column;
-    //   align-items: center;
-    //   width: 30rem;
-
-    //   h1 {
-    //     margin: 0.5rem 0rem 0.5rem 0rem;
-    //     font-size: 2.2rem;
-    //     color: white;
-    //   }
-
-    //   .line {
-    //     border-top: 0.2rem solid white;
-    //     width: 5rem;
-    //   }
-    // }
   }
 }
