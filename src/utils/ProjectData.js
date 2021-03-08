@@ -9,7 +9,8 @@ export default [
   {
     title: "Music Supreme",
     image: music,
-    description: "E-commerce site made with React.",
+    description:
+      "E-commerce site made with React. With user authentication, orders, products, cart, checkout. ",
     url: "https://react-music-store-supreme.netlify.app/",
   },
   {
