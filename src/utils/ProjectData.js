@@ -3,6 +3,7 @@ import music from "../assets/music-ss.png";
 import app from "../assets/app-ss.png";
 import h2cu from "../assets/h2cu-copy.png";
 import hce4 from "../assets/hce4.png";
+import capstone from "../assets/capstone.png";
 
 export default [
   {
@@ -10,6 +11,13 @@ export default [
     image: music,
     description: "E-commerce site made with React.",
     url: "https://react-music-store-supreme.netlify.app/",
+  },
+  {
+    title: "uFitness",
+    image: capstone,
+    description:
+      "Create your own personalized workout with this interactive app. Made with React.",
+    url: "https://happy-mahavira-f477ed.netlify.app/",
   },
   {
     title: "HCE 4",
