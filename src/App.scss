@@ -70,6 +70,16 @@ html {
   bottom: 40px;
   left: 33.5%;
   font-size: 0.9rem;
+
+  @include phone {
+    bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
 }
 
 .btn-link:hover {
