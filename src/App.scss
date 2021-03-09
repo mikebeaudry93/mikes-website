@@ -4,7 +4,7 @@
 
 // Variables
 $primary-font: "Poppins", sans-serif;
-$primary-color: #035096;
+$primary-color: rgb(3, 79, 150);
 $primary-color-bg: rgba(3, 80, 150, 1);
 $grey-color: rgba(245, 245, 245, 1);
 $main-transition: all 0.1s linear;
@@ -52,23 +52,32 @@ html {
 
 // Buttons
 .btn-primary {
-  // font-weight: bold;
-  // letter-spacing: 0.1rem;
-  font-size: 1rem;
+  font-weight: 500;
+  // letter-spacing: 1.3px;
+  font-size: 0.9rem;
   font-family: $primary-font;
-  padding: 12px;
+  padding: 12px 50px;
   cursor: pointer;
   border-radius: 2px;
   border: 1px solid $primary-color;
   text-transform: capitalize;
+  text-align: center;
   background: rgba(255, 255, 255, 0);
   color: white;
   transition: $main-transition;
   outline: none;
   box-shadow: 0px 3px 7px rgba(black, 0.2);
+  margin: 0px 6px;
 
   @include phone {
     width: 15rem;
+    margin-top: 12px;
+  }
+}
+
+.resume {
+  @include phone {
+    // display: none;
   }
 }
 

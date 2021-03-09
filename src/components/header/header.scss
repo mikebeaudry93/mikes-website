@@ -5,9 +5,19 @@
   justify-content: space-around;
   padding: 24px;
   text-transform: capitalize;
+  flex-wrap: wrap;
 
   @include phone {
+    padding: 0px;
     justify-content: center;
+  }
+
+  .btn-box {
+    @include phone {
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   h3,

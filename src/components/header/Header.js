@@ -16,13 +16,22 @@ const Header = () => {
       <h3>
         michael <span>beaudry</span>
       </h3>
-      <div>
+      <div className="btn-box">
         <button
           className="btn-primary"
           onClick={() => scrollToElement("contact")}
         >
           let's get in touch!
         </button>
+        <a
+          className="btn-primary resume"
+          href="https://drive.google.com/file/d/1mLf-1lgrCYm8amoUHP78zrhykVnWxM2u/view?usp=sharing"
+          alt="resume"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume / CV
+        </a>
       </div>
     </header>
   );
