@@ -9,10 +9,6 @@
   align-items: center;
   position: relative;
 
-  @include phone {
-    // margin-bottom: 10rem;
-  }
-
   .about-content {
     width: 70%;
     display: flex;
@@ -24,6 +20,10 @@
       margin-top: 3rem;
     }
 
+    @include smalllaptop {
+      height: 40rem;
+    }
+
     h2 {
       font-weight: bold;
       font-size: 1.6rem;
@@ -31,6 +31,11 @@
       margin: 1rem 0rem;
 
       @include phone {
+        text-align: center;
+        line-height: 2.5rem;
+      }
+
+      @include tablet {
         text-align: center;
         line-height: 2.5rem;
       }

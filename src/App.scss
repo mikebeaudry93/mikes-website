@@ -14,14 +14,26 @@ $box-shadow-small: 0px 3px 15px rgba(0, 0, 0, 0.2);
 
 // Media Queries
 
-@mixin desktop {
-  @media (min-width: 768px) {
+// @mixin desktop {
+//   @media (min-width: 800px) {
+//     @content;
+//   }
+// }
+
+@mixin phone {
+  @media (min-width: 300px) and (max-width: 600px) {
     @content;
   }
 }
 
-@mixin phone {
-  @media (min-width: 300px) and (max-width: 500px) {
+@mixin tablet {
+  @media (min-width: 601px) and (max-width: 1000px) {
+    @content;
+  }
+}
+
+@mixin smalllaptop {
+  @media (min-width: 1001px) and (max-width: 1407px) {
     @content;
   }
 }
@@ -54,6 +66,10 @@ html {
   transition: $main-transition;
   outline: none;
   box-shadow: 0px 3px 7px rgba(black, 0.2);
+
+  @include phone {
+    width: 15rem;
+  }
 }
 
 .btn-primary:hover {

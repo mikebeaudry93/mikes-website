@@ -29,7 +29,19 @@
     @include phone {
       position: unset;
       margin: 0rem;
-      margin-bottom: 2rem; 
+      margin-bottom: 2rem;
+    }
+
+    @include tablet {
+      position: unset;
+      margin: 0rem;
+      margin-bottom: 2rem;
+    }
+
+    @include smalllaptop {
+      position: unset;
+      flex-wrap: none;
+      width: 95vw;
     }
   }
 

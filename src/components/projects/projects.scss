@@ -12,6 +12,15 @@
     width: 100%;
   }
 
+  @include tablet {
+    width: 100%;
+    height: 155rem;
+  }
+
+  @include smalllaptop {
+    width: 100%;
+  }
+
   .project-title-box {
     display: flex;
     flex-direction: column;

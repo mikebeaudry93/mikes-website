@@ -41,6 +41,11 @@
     margin: auto;
   }
 
+  @include tablet {
+    width: 35rem;
+    margin: auto;
+  }
+
   .icon {
     margin-left: 2px;
   }
@@ -64,9 +69,13 @@
     position: relative;
 
     @include phone {
-      width: 120%;
+      width: 110%;
       margin: 0px;
       // justify-content: space-around;
+    }
+
+    @include tablet {
+      width: 100%;
     }
 
     label {

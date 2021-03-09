@@ -18,6 +18,16 @@
     width: 100%;
   }
 
+  @include tablet {
+    position: unset;
+    width: 100%;
+  }
+
+  @include smalllaptop {
+    width: 130%;
+    position: unset;
+  }
+
   .tech-skills-title {
     margin: 1.5rem;
     font-size: 1.5rem;
@@ -46,10 +56,22 @@
         width: 3rem;
       }
 
+      @include smalllaptop {
+        width: 4rem;
+      }
+
       &:hover {
         transform: scale(1.1);
         cursor: pointer;
       }
     }
+  }
+}
+
+.skill-box {
+  height: 160px;
+
+  @include phone {
+    height: 120px;
   }
 }

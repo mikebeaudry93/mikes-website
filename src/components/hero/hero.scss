@@ -38,13 +38,20 @@
         @include phone {
           width: 70%;
           border-top: 0.1rem solid $grey-color;
+          top: 2rem;
           display: none;
           // align-items: center;
           // justify-content: center;
         }
+        @include tablet {
+          width: 30%;
+          top: 0.6rem;
+          border-top: 0.2rem solid $grey-color;
+        }
       }
       @include phone {
         width: 80%;
+        justify-content: center;
 
         // align-items: center;
         // justify-content: center;
@@ -65,15 +72,23 @@
       color: $grey-color;
 
       @include phone {
-        font-size: 2.4rem;
+        font-size: 2.8rem;
         overflow: none;
         letter-spacing: 0.6rem;
+      }
+
+      @include tablet {
+        font-size: 4.7rem;
       }
     }
 
     .btn-hero {
       width: 30%;
       align-self: center;
+
+      @include phone {
+        width: 70%;
+      }
     }
 
     h3 {
@@ -83,6 +98,11 @@
 
       @include phone {
         font-size: 1rem;
+        text-align: center;
+      }
+
+      @include tablet {
+        font-size: 1.1rem;
         text-align: center;
       }
     }

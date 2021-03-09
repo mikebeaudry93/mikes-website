@@ -26,7 +26,7 @@ const TechSkills = () => {
       <div className="skills-list">
         {icons.map((item, i) => {
           return (
-            <div>
+            <div className="skill-box">
               <h4>{item.skill}</h4>
               <img
                 key={i}

@@ -6,6 +6,10 @@
   padding: 24px;
   text-transform: capitalize;
 
+  @include phone {
+    justify-content: center;
+  }
+
   h3,
   div {
     padding: 12px;
@@ -14,6 +18,10 @@
 
   h3 {
     opacity: 0;
+
+    @include phone {
+      display: none;
+    }
   }
 
   h3:hover {
