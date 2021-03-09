@@ -31,6 +31,8 @@ const ProjectCard = ({ title, image, description, url }) => {
       <a
         className={`btn-primary btn-link ${isHovered && "btn-link-hovered"}`}
         href={url}
+        target="_blank"
+        rel="noreferrer noopener"
       >
         view website{" "}
         <span>
