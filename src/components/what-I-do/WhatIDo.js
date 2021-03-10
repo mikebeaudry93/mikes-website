@@ -20,7 +20,3 @@ function WhatIDo() {
 
 export default WhatIDo;
 
-// <div className="title-box">
-// <h1>What I do</h1>
-// <div className="line"></div>
-// </div>
