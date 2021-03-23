@@ -6,13 +6,13 @@ import hce4 from "../assets/hce4.png";
 import capstone from "../assets/capstone.png";
 
 export default [
-  {
-    title: "Music Supreme",
-    image: music,
-    description:
-      "E-commerce site made with React. With user authentication, orders, products, cart, checkout. ",
-    url: "https://react-music-store-supreme.netlify.app/",
-  },
+  // {
+  //   title: "Music Supreme",
+  //   image: music,
+  //   description:
+  //     "E-commerce site made with React. With user authentication, orders, products, cart, checkout. ",
+  //   url: "https://react-music-store-supreme.netlify.app/",
+  // },
   {
     title: "uFitness",
     image: capstone,
