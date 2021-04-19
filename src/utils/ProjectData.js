@@ -1,18 +1,16 @@
-import quiz from "../assets/quiz-copy.png";
-import music from "../assets/music-ss.png";
-import app from "../assets/app-ss.png";
 import h2cu from "../assets/h2cu-copy.png";
 import hce4 from "../assets/hce4.png";
 import capstone from "../assets/capstone.png";
+import travellogger from "../assets/travellogger.png";
 
 export default [
-  // {
-  //   title: "Music Supreme",
-  //   image: music,
-  //   description:
-  //     "E-commerce site made with React. With user authentication, orders, products, cart, checkout. ",
-  //   url: "https://react-music-store-supreme.netlify.app/",
-  // },
+  {
+    title: "Travel Logger",
+    image: travellogger,
+    description:
+      "Full stack MERN application. Use of useState, useEffect, and useContext hooks. User authentication made with JSON Web Token. Use of bcrypt for password hashing. Cloudinary middleware for image uploads.",
+    url: "https://travellogger.netlify.app/",
+  },
   {
     title: "uFitness",
     image: capstone,
@@ -33,17 +31,5 @@ export default [
     description:
       "Website for Human Connection Campus - International University 4.0.",
     url: "https://www.h2cu.online/",
-  },
-  {
-    title: "Js Quiz",
-    image: quiz,
-    description: "Interactive quiz app.",
-    url: "https://compassionate-northcutt-2baef9.netlify.app/",
-  },
-  {
-    title: "Weather App",
-    image: app,
-    description: "Pulls data from third party weather api.",
-    url: "https://pensive-bell-4cd02e.netlify.app/",
   },
 ];

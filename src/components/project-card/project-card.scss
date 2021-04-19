@@ -1,8 +1,8 @@
 @import "../../App.scss";
 
 .project-card {
-  height: 15rem;
-  width: 28rem;
+  height: 20rem;
+  width: 40rem;
   // width: 40%;
   border-radius: 0px;
   margin: 1rem 0.8rem;
@@ -34,9 +34,10 @@
 .project-card {
   position: relative;
   background: #67809f;
-  color: white;
+  color: rgb(255, 255, 255);
   border: none;
-  font-weight: bold;
+  // font-weight: bold;
+  line-height: 2rem;
   overflow: hidden;
   z-index: 1;
   padding: 0px;
@@ -78,6 +79,8 @@ a {
 
 .project-card-text-box {
   border-radius: 0px;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -85,16 +88,24 @@ a {
   // left: 0;
   opacity: 0;
   justify-content: center;
-  margin-bottom: 10rem;
+
   // background: rgba(black, 0.8);
   // transform: translateY(px);
   transition: $secondary-transition;
+
+  @include phone {
+    margin-top: 1rem;
+  }
 
   div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
+    color: rgb(255, 255, 255);
+
+    @include phone {
+      font-size: 14px;
+    }
   }
 
   h2 {

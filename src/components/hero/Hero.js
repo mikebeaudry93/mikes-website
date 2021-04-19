@@ -1,7 +1,5 @@
 import React from "react";
 import "./hero.scss";
-import { BsFileCode } from "react-icons/bs";
-import { GiPencilBrush } from "react-icons/gi";
 import { scroller } from "react-scroll";
 
 const Hero = () => {
@@ -17,7 +15,7 @@ const Hero = () => {
     <div className="hero">
       <div className="hero-content">
         <div className="sub-title-box">
-          <h3>FRONT END DEVELOPER</h3>
+          <h3>FULL STACK DEVELOPER</h3>
           <div className="hero-line"></div>
         </div>
         <h1>

@@ -12,7 +12,7 @@ const Projects = () => {
     <section className="projects">
       <div className="project-title-box">
         <h3>Portfolio</h3>
-        <h1>Here's a look at my work</h1>
+        <h1>Here's a few things I have worked on!</h1>
         <div className="project-line"></div>
       </div>
 
