@@ -1,7 +1,7 @@
 @import "../../App.scss";
 
 .tech-skills {
-  margin: 3rem 0rem;
+  margin: 4rem 0rem;
   padding-bottom: 1rem;
   background: white;
   color: black;
@@ -12,7 +12,7 @@
   width: 80%;
   align-items: center;
   position: absolute;
-  top: 28rem;
+  top: 29rem;
 
   @include phone {
     position: unset;
