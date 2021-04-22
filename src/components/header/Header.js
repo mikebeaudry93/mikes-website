@@ -25,7 +25,7 @@ const Header = () => {
         </button>
         <a
           className="btn-primary resume"
-          href="https://drive.google.com/file/d/19WxiMtEu0ENA6SGxJbih2j7zOYkHQxzm/view?usp=sharing"
+          href="https://drive.google.com/file/d/118wL_e3rSVKpaaon0Xokaj-6P6yMkqr6/view?usp=sharing"
           alt="resume"
           target="_blank"
           rel="noopener noreferrer"
