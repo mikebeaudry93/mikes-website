@@ -17,7 +17,7 @@ const About = () => {
           clean code. My notable tech skills include React, HTML, SASS,
           JavaScript, Node, and Express. I also have experience building
           websites and applications with Wordpress, Wix and the MERN stack. I'm
-          charasmatic, hardworking, and have a natural curiosity for learning
+          charismatic, hardworking, and have a natural curiosity for learning
           how things work. I look to forward to helping progress the world
           through innovative technology.
         </p>
